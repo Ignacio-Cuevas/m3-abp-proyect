@@ -1,0 +1,11 @@
+//1. ESTILOS ABSTRACTOS
+@use "abstracts";
+
+//3. ESTILOS BASE DEL PROYECTO -> RESET, TIPOGRAFÍA
+@use "base";
+
+//5. COMPONENTES REUTILIZABLES
+@use "components";
+
+//6. ESTILOS DIRIGIDOS A UNA PÁGINA PUNTUAL
+@use "pages";
