@@ -37,6 +37,26 @@ span {
   aspect-ratio: 1/1;
 }
 
+.btn-custom {
+  padding: 0.5rem 1.2rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-custom--primary {
+  background-color: #2196f3;
+  color: white;
+}
+.btn-custom:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+.btn-custom:active {
+  transform: scale(0.95);
+}
+
 .home-page {
   background-color: #4CAF50;
 }
@@ -51,6 +71,21 @@ span {
 .home-header__subtitle {
   color: indigo;
   padding: 2rem 0;
+}
+
+.home-container-button {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0.5rem;
+  align-items: center;
+}
+
+.home-container-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,24 @@
+@use "../abstracts/variables" as *;
+
+.btn-custom {
+    padding: 0.5rem 1.2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &--primary {
+        background-color: $color-primary;
+        color: white;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
