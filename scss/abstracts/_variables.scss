@@ -6,3 +6,7 @@ $color-indigo: indigo;
 $color-accent: #E91E63;
 $color-primary: #2196f3;
 
+$custom-colors: (
+    "custom-primary": $color-indigo,
+    "custom-secondary": $color-accent,
+)

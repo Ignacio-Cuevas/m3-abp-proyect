@@ -1,6 +1,9 @@
 //1. ESTILOS ABSTRACTOS
 @use "abstracts";
 
+//2. VENDORS -> FRAMEWORKS DE TERCEROS
+@use "vendors";
+
 //3. ESTILOS BASE DEL PROYECTO -> RESET, TIPOGRAFÍA
 @use "base";
 
