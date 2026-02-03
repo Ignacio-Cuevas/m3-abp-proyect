@@ -19,11 +19,29 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- links de la izquierda / centro -->
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                     <a class="nav-link" href="#">Productos en oferta</a>
                 </div>
+
+                <!-- botón de login a la derecha -->
+                <div aria-label="user_login_button" tabindex="0" role="button" class="user-profile login-button ms-3">
+                    <div class="login-button__inner">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            class="login-button__icon">
+                            <g data-name="Layer 2" id="Layer_2">
+                                <path
+                                    d="m15.626 11.769a6 6 0 1 0 -7.252 0 9.008 9.008 0 0 0 -5.374 8.231 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 9.008 9.008 0 0 0 -5.374-8.231zm-7.626-4.769a4 4 0 1 1 4 4 4 4 0 0 1 -4-4zm10 14h-12a1 1 0 0 1 -1-1 7 7 0 0 1 14 0 1 1 0 0 1 -1 1z">
+                                </path>
+                            </g>
+                        </svg>
+                        <p class="login-button__text">Log in</p>
+                    </div>
+                </div>
+                <!-- fin botón login -->
             </div>
         </div>
     </nav>
@@ -34,7 +52,7 @@
         <p class="text-center text-danger fw-bold fs-5">100% productos originales.</p>
     </header>
 
-    <main class="container">
+    <main class="container py-2">
         <section>
             <h2 class="text-decoration-underline py-4">Nuestros productos</h2>
 
@@ -99,6 +117,17 @@
 
         </section>
     </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <a href="index.html" class="footer__container-link">Home</a>
+            <a href="productos.html " class="footer__container-link">Productos</a>
+            <a href="#" class="footer__container-link">Contacto</a>
+        </div>
+        <div class="container footer__container">
+            <p class="footer__container-text">Todos los derechos reservados &copy; 2026</p>
+        </div>
+
+    </footer>
 </body>
 
 </html>

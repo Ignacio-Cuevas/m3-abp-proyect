@@ -1,0 +1,42 @@
+@use "../abstracts" as *;
+
+.login-button {
+    width: $login-button-width;
+    height: $login-button-height;
+    border-radius: $login-button-radius;
+    cursor: pointer;
+    transition: $login-button-transition;
+    background: linear-gradient(to bottom right,
+            $login-button-color-primary 0%,
+            rgba($login-button-color-primary, 0) 30%);
+    background-color: rgba($login-button-color-primary, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include login-button-interaction(rgba($login-button-color-primary, 0.7),
+        rgba($login-button-color-primary, 0.5));
+
+    &__inner {
+        width: $login-button-width - 4px;
+        height: $login-button-height - 4px;
+        border-radius: $login-button-inner-radius;
+        background-color: $login-button-color-bg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        color: $login-button-color-text;
+        font-weight: 600;
+    }
+
+    &__icon {
+        width: 27px;
+        height: 27px;
+        fill: $login-button-color-text;
+    }
+
+    &__text {
+        margin: 0;
+    }
+}

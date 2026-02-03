@@ -9,4 +9,14 @@ $color-primary: #2196f3;
 $custom-colors: (
     "custom-primary": $color-indigo,
     "custom-secondary": $color-accent,
-)
+);
+
+// LOGIN BUTTON VARIABLES
+$login-button-width: 131px;
+$login-button-height: 51px;
+$login-button-radius: 15px;
+$login-button-inner-radius: 13px;
+$login-button-transition: 0.3s ease;
+$login-button-color-primary: #2e8eff;
+$login-button-color-bg: #1a1a1a;
+$login-button-color-text: #fff;

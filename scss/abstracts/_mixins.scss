@@ -1,0 +1,12 @@
+// MIXINS
+
+// Login button interaction mixin
+@mixin login-button-interaction($hover-bg-color, $shadow-color) {
+
+    &:hover,
+    &:focus {
+        background-color: $hover-bg-color;
+        box-shadow: 0 0 10px $shadow-color;
+        outline: none;
+    }
+}
